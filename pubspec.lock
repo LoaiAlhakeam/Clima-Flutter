@@ -67,6 +67,7 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.0"
+<<<<<<< HEAD
   flutter_web_plugins:
     dependency: transitive
     description: flutter
@@ -128,6 +129,8 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "0.6.3"
+=======
+>>>>>>> parent of 4510aee (add geolocator pludin & grants permissions)
   matcher:
     dependency: transitive
     description:
@@ -149,6 +152,7 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "1.8.0"
+<<<<<<< HEAD
   pedantic:
     dependency: transitive
     description:
@@ -163,6 +167,8 @@ packages:
       url: "https://pub.dartlang.org"
     source: hosted
     version: "2.0.1"
+=======
+>>>>>>> parent of 4510aee (add geolocator pludin & grants permissions)
   sky_engine:
     dependency: transitive
     description: flutter
@@ -226,4 +232,3 @@ packages:
     version: "2.1.0"
 sdks:
   dart: ">=2.12.0 <3.0.0"
-  flutter: ">=1.20.0"

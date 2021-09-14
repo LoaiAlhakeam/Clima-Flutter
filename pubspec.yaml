@@ -11,8 +11,11 @@ dependencies:
     sdk: flutter
 
   cupertino_icons: ^0.1.2
+<<<<<<< HEAD
   geolocator: ^7.6.0
   http: ^0.13.3
+=======
+>>>>>>> parent of 4510aee (add geolocator pludin & grants permissions)
 
 dev_dependencies:
   flutter_test:
