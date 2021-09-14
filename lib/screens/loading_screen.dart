@@ -37,21 +37,16 @@ class _LoadingScreenState extends State<LoadingScreen> {
 
     NetworkHelper helper = NetworkHelper(
         url:
-            'https://api.openweathermap.org/data/2.5/weather?lat=${location.latitude}&lon=${location.longitude}&appid=$apiKey');
+            'https://api.openweathermap.org/data/2.5/weather?lat=${location.latitude}&lon=${location.longitude}&appid=$apiKey&units=metric');
     var data = await helper.getData();
 
     Navigator.push(
       context,
       MaterialPageRoute(builder: (context) {
-        return LocationScreen();
+        return LocationScreen(
+          weatherData: data,
+        );
       }),
     );
   }
 }
-
-// var temp = jsonDecode(data)['main']['temp'];
-// var id = jsonDecode(data)['weather'][0]['id'];
-// var name = jsonDecode(data)['name'];
-// print(temp);
-// print(id);
-// print(name);
